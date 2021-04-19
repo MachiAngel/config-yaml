@@ -18,5 +18,5 @@ spec:
         - name: server
           image: 'gcr.io/blacklist-276509/hello-world'
           ports:
-            - containerPort: 80
+            - containerPort: 3000
 
