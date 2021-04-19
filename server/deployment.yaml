@@ -19,4 +19,6 @@ spec:
           image: 'gcr.io/blacklist-276509/hello-world'
           ports:
             - containerPort: 3000
+      imagePullSecrets:
+        - name: gcr-json-key
 
