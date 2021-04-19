@@ -8,6 +8,9 @@ spec:
       octopusexport: OctopusExport
   replicas: 3
   strategy:
+    rollingUpdate:
+      maxSurge: 1
+      maxUnavailable: 1
     type: RollingUpdate
   template:
     metadata:
