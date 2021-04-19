@@ -19,7 +19,7 @@ spec:
     spec:
       containers:
         - name: server
-          image: 'gcr.io/blacklist-276509/hello-world:21.04.19'
+          image: 'gcr.io/blacklist-276509/hello-world:21.04.17'
           ports:
             - containerPort: 3000
       imagePullSecrets:
